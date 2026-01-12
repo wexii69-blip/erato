@@ -463,7 +463,7 @@ function addScriptStatusIcon() {
             <div style="font-weight:bold; color:#ffd700; font-size:19px; margin-bottom:14px; text-align:center;">
                 AutoInfo Erato
             </div>
-            <div style="margin-bottom:10px;"><strong>Wersja:</strong> 0.2.11</div>
+            <div style="margin-bottom:10px;"><strong>Wersja:</strong> 0.2.12</div>
             <div style="margin-bottom:10px;"><strong>Śledzonych bossów:</strong> ${trackedBosses.size}</div>
             <div style="margin-bottom:10px;"><strong>Status:</strong> ${trackedBosses.size > 0 ? 'Aktywnie śledzę spawn' : 'Czekam na nowego bossa'}</div>
             <div style="font-size:12px; color:#a89b7e; text-align:center; margin-top:16px;">
