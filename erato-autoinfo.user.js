@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoInfo Erato - Discord notifier
 // @namespace    http://tampermonkey.net/
-// @version      0.2.12
+// @version      0.2.13
 // @description  Powiadomienia o herosach/tytanach/kolosach + wybór przy znalezieniu + auto po zabiciu
 // @author       Silasik (refaktoryzacja + modyfikacja: community)
 // @match        https://aldous.margonem.pl/
@@ -65,6 +65,7 @@
                 'Mietek Żul': '<@&1458945864394346507>',
                 'Złoty Roger': '<@&1351687307190730772>',
                 'Przeraza': '<@&1430943619228897401>',
+                'Widmo Triady': '<@&1462508497123020810>',
                 'default': '<@&1079817947842879608>'
             },
             other: {
@@ -463,7 +464,7 @@ function addScriptStatusIcon() {
             <div style="font-weight:bold; color:#ffd700; font-size:19px; margin-bottom:14px; text-align:center;">
                 AutoInfo Erato
             </div>
-            <div style="margin-bottom:10px;"><strong>Wersja:</strong> 0.2.12</div>
+            <div style="margin-bottom:10px;"><strong>Wersja:</strong> 0.2.13</div>
             <div style="margin-bottom:10px;"><strong>Śledzonych bossów:</strong> ${trackedBosses.size}</div>
             <div style="margin-bottom:10px;"><strong>Status:</strong> ${trackedBosses.size > 0 ? 'Aktywnie śledzę spawn' : 'Czekam na nowego bossa'}</div>
             <div style="font-size:12px; color:#a89b7e; text-align:center; margin-top:16px;">
